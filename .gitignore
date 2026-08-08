@@ -1,0 +1,19 @@
+# GEE download scratch space (regenerated on every run)
+_gee_tmp/
+_sizetest/
+
+# NOTE: do NOT ignore assets/ -- at native 10 m the SAR backdrop PNGs live
+# there and index.html loads them by relative path. Ignoring it publishes a
+# page whose heavy layers 404.
+
+# Local diagnostics
+_diag*.py
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
